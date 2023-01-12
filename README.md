@@ -1,6 +1,6 @@
 # ironsworn-pl
-Polski moduł babele dla systemu Ironsowrn Foundry VTT
-Nie jestem również programistą, więc ewentualne prace idą bardzo powoli, każdy element musze uczyć się jak go wykonywać. Wszelkie porady/bugi prosze wysyłać na discorda: Potatronus#0666
+Polski moduł babele dla systemu Ironsowrn Foundry VTT<br>
+Nie jestem również programistą, więc ewentualne prace idą bardzo powoli. Każdy element musze uczyć się jak go wykonywać. Wszelkie porady/bugi prosze wysyłać na discorda: Potatronus#0666
 <br>Polish babele module for Ironsowrn Foundry VTT system
 I am also not a programmer, so the possible work goes very slowly, each element I have to learn how to do it. Any tips/bugs please send to discord: Potatronus#0666
 
@@ -10,7 +10,7 @@ To jest fanowskie tłumaczenie. / This translation is fan made.
 - Zainstaluj moduł Babele i ten moduł.
 - Aktywuj oba w konfiguracji świata.
 - Zmień język na hiszpański w konfiguracji świata.
-<br></br>
+<br>
 - Install Babele module  and this module.
 - Activate both in your world configuration.
 - Change language to spanish in the world's configuration.
