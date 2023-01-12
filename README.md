@@ -15,7 +15,7 @@ To jest fanowskie tłumaczenie. / This translation is fan made.
 - Activate both in your world configuration.
 - Change language to spanish in the world's configuration.
 
-# Problemas conocidos / Known issues
+# Znane problemy / Known issues
 
 
 
