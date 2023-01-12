@@ -1,0 +1,132 @@
+{
+	"label": "Ironsworn Delve Territorios",
+	"mapping": {
+		"summary": "data.summary",
+		"description": "data.description",
+		"feature1 chance": "data.features.1.chance",
+		"feature1 low": "data.features.1.low",
+		"feature1 high": "data.features.1.high",
+		"feature1": "data.features.1.description",
+		"feature2 chance": "data.features.2.chance",
+		"feature2 low": "data.features.2.low",
+		"feature2 high": "data.features.2.high",
+		"feature2": "data.features.2.description",
+		"feature3 chance": "data.features.3.chance",
+		"feature3 low": "data.features.3.low",
+		"feature3 high": "data.features.3.high",
+		"feature3": "data.features.3.description",
+		"feature4 chance": "data.features.4.chance",
+		"feature4 low": "data.features.4.low",
+		"feature4 high": "data.features.4.high",
+		"feature4": "data.features.4.description",
+		"feature5 chance": "data.features.5.chance",
+		"feature5 low": "data.features.5.low",
+		"feature5 high": "data.features.5.high",
+		"feature5": "data.features.5.description",
+		"feature6 chance": "data.features.6.chance",
+		"feature6 low": "data.features.6.low",
+		"feature6 high": "data.features.6.high",
+		"feature6": "data.features.6.description",
+		"feature7 chance": "data.features.7.chance",
+		"feature7 low": "data.features.7.low",
+		"feature7 high": "data.features.7.high",
+		"feature7": "data.features.7.description",
+		"feature8 chance": "data.features.8.chance",
+		"feature8 low": "data.features.8.low",
+		"feature8 high": "data.features.8.high",
+		"feature8": "data.features.8.description",
+		"feature9 chance": "data.features.9.chance",
+		"feature9 low": "data.features.9.low",
+		"feature9 high": "data.features.9.high",
+		"feature9": "data.features.9.description",
+		"feature10 chance": "data.features.10.chance",
+		"feature10 low": "data.features.10.low",
+		"feature10 high": "data.features.10.high",
+		"feature10": "data.features.10.description",
+		"feature11 chance": "data.features.11.chance",
+		"feature11 low": "data.features.11.low",
+		"feature11 high": "data.features.11.high",
+		"feature11": "data.features.11.description",
+		"feature12 chance": "data.features.12.chance",
+		"feature12 low": "data.features.12.low",
+		"feature12 high": "data.features.12.high",
+		"feature12": "data.features.12.description"
+	},
+
+	"entries": [
+		{
+			"id": "Barrow",
+			"name": "Túmulo",
+			"summary": "Los muertos son consgrados aquí.",
+			"description": "<p>En esta tierra cruel, no hay falta de muertos para darles el descanso eterno. Algunos túmulos son simples criptas para una familia o una pequeña pobalción. Otros son mas elaborados o extensos, adentrándose en las profundidades de la tierra. Algunos montículos poco visibles, con sus rocas y tierra moldeados por el tiempo, marcan la entrada a laberínticas tumbas contruidas por gente hace mucho olvidada.</p>\n<p>Incluso los lugares mas antiguos aún reflejan la memoria y el poder de vidas anteriores, batallas peleadas, amores ganados o perdidos, y juramentos sin cumplir.</p>\n",
+			"feature1": "Cámara funeraria",
+          	"feature2": "Laberinto de pasillos estrechos",
+          	"feature3": "Santuario",
+          	"feature4": "Cripta majestuosa",
+          	"feature5": "Ofrendas a los muertos",
+          	"feature6": "Estatuas o tapices",
+          	"feature7": "Restos de un lafrón de tumbas",
+          	"feature8": "Fosa común",
+          	"feature9": "Cuerpos exhumados",
+          	"feature10": "Algo inusual o inesperado",
+          	"feature11": "Pasas a un nuevo tema",
+          	"feature12": "Pasas a un nuevo terreno",
+			"feature1 chance": 43, "feature1 low": 21, "feature1 high": 43,
+			"feature2 chance": 56, "feature2 low": 44, "feature2 high": 56,
+			"feature3 chance": 64, "feature3 low": 57, "feature3 high": 64,
+			"feature4 chance": 68, "feature4 low": 65, "feature4 high": 68,
+			"feature5 chance": 72, "feature5 low": 69, "feature5 high": 72,
+			"feature6 chance": 76, "feature6 low": 73, "feature6 high": 76,
+			"feature7 chance": 80, "feature7 low": 77, "feature7 high": 80,
+			"feature8 chance": 84, "feature8 low": 81, "feature8 high": 84,
+			"feature9 chance": 88, "feature9 low": 85, "feature9 high": 88,
+			"feature10 chance": 98, "feature10 low": 89, "feature10 high": 98,
+			"feature11 chance": 99, "feature11 low": 99, "feature11 high": 99,
+			"feature12 chance": 100,"feature12 low": 100, "feature12 high": 100
+		},
+		{
+			"id": "Cavern",
+			"name": "Cavern"
+		},
+		{
+			"id": "Frozen Cavern",
+			"name": "Frozen Cavern"
+		},
+		{
+			"id": "Icereach",
+			"name": "Icereach"
+		},
+		{
+			"id": "Mine",
+			"name": "Mine"
+		},
+		{
+			"id": "Pass",
+			"name": "Pass"
+		},
+		{
+			"id": "Ruin",
+			"name": "Ruin"
+		},
+		{
+			"id": "Sea Cave",
+			"name": "Sea Cave"
+		},
+		{
+			"id": "Shadowfen",
+			"name": "Shadowfen"
+		},
+		{
+			"id": "Stronghold",
+			"name": "Stronghold"
+		},
+		{
+			"id": "Tanglewood",
+			"name": "Tanglewood"
+		},
+		{
+			"id": "Underkeep",
+			"name": "Underkeep"
+		}
+	]
+}
