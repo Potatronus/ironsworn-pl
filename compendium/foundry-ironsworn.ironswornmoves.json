@@ -17,7 +17,7 @@
 		},
 		"Aid Your Ally": {
 			"name": "Wspomóż Sojusznika",
-			"description": "<p>Kiedy <strong>you <em>Zapewniasz Sobie Przewagę</em> bezpośrednio wspierając sojusznika/ów</strong>, i osiągniesz sukces, sojusznik/cy (zamiast ciebie) mogą czerpać z korzyści tego ruchu. Jeśli w walce osiągasz <strong>pełny sukces</strong>, ty i twój/i sojusznik/cy macie inicjatywę .</p>\n"
+			"description": "<p>Kiedy <strong><em>Zapewniasz Sobie Przewagę</em> bezpośrednio wspierając sojusznika/ów</strong>, i osiągniesz sukces, sojusznik/cy (zamiast ciebie) mogą czerpać z korzyści tego ruchu. Jeśli w walce osiągasz <strong>pełny sukces</strong>, ty i twój/i sojusznik/cy macie inicjatywę .</p>\n"
 		},
 		"Ask the Oracle": {
 			"name": "Zapytaj Wyrocznię",
@@ -60,7 +60,7 @@
 		},
 		"Delve the Depths": {
 			"name": "Sięgnij w Nieznane",
-			"description": "<p>Kiedy you <strong>przemieszczasz się przez obszar w niebezpiecznym miejscu</strong>, Rozważ twoje otoczenie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Następnie, zastanów się nad swoim podejściem. Jeśli poruszasz się po tym obszarze...</p>\n<ul>\n<li>Pospiesznie: Rzuć <b>+Sprawność</b>.</li>\n<li>Cicho i przebiegle: Rzuć <b>+Cień</b>.</li>\n<li>Z pomocą intuicji, wiedzy bądź wnikliwej obserwacji: rzuć <b>+Rozum</b>.</li>\n</ul>\n",
+			"description": "<p>Kiedy <strong>przemieszczasz się przez obszar w niebezpiecznym miejscu</strong>, Rozważ twoje otoczenie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Następnie, zastanów się nad swoim podejściem. Jeśli poruszasz się po tym obszarze...</p>\n<ul>\n<li>Pospiesznie: Rzuć <b>+Sprawność</b>.</li>\n<li>Cicho i przebiegle: Rzuć <b>+Cień</b>.</li>\n<li>Z pomocą intuicji, wiedzy bądź wnikliwej obserwacji: rzuć <b>+Rozum</b>.</li>\n</ul>\n",
 			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zagłębiasz się bardziej. Mark progress and <em>Find an Opportunity</em>. </p>\n",
 			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, roll on the following table according to your stat.</p>\n<table>\n<thead>\n<tr>\n<th>Edge</th>\n<th>Shadow</th>\n<th>Wits</th>\n<thCzęściowym sukcesie Result</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-45</td>\n<td>1-30</td>\n<td>1-40</td>\n<td>Mark progress and <em>Reveal a Danger</em>.</td>\n</tr>\n<tr>\n<td>46-65</td>\n<td>31-65</td>\n<td>41-55</td>\n<td>Mark progress.</td>\n</tr>\n<tr>\n<td>66-75</td>\n<td>66-90</td>\n<td>56-80</td>\n<td>Wybierz jedno: Mark progress or <em>Find an Opportunity</em>.</td>\n</tr>\n<tr>\n<td>76-80</td>\n<td>91-99</td>\n<td>81-99</td>\n<td>Take both: Mark progress and <em>Find an Opportunity</em>.</td>\n</tr>\n<tr>\n<td>81-00</td>\n<td>00</td>\n<td>00</td>\n<td>Mark progress twice and <em>Reveal a Danger</em>.</td>\n</tr>\n</tbody></table>\n",
 			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, <em>Reveal a Danger</em>.</p>\n"
@@ -99,7 +99,7 @@
 		},
 		"Enter the Fray": {
 			"name": "Przystąp do Walki",
-			"description": "<p>Kiedy <strong>you przystępujesz do walki</strong>, ustaw  rangę każdego z twoich wrogów.</p>\n<ul>\n<li>Kłopotliwy przeciwnik: 3 postepu na kazdą ranę; zadaje 1 ranę.</li>\n<li>Niebezpieczny przeciwnik: 2 postepu na kazdą ranę; zadaje 2 rany.</li>\n<li>Przytłaczający przeciwnik: 1 postepu na kazdą ranę; zadaje 3 rany.</li>\n<li>Ekstremalny przeciwnik: 2 ticki(kreski) na ranę; zadaje 4 rany.</li>\n<li>Epicki przeciwnik: 1 tick(kreska) na ranę; zadaje 5 rany.</li>\n</ul>\n<p>Następnie, rzuć koścmi wyzwania by zobaczyć kto ma inicjatywę. Jeśli...</p>\n<ul>\n<li>Stawiasz czoła wrogowi: Rzuć +Serce.</li>\n<li>Ustawiasz się w pozycji przeciwko nieświadomemu wrogowi, lub uderzasz bez ostrzeżenia: Rzuć +Cień.</li>\n<li>Wpadłeś w zasadzkę: rzuć +Rozum.</li>\n</ul>\n",
+			"description": "<p>Kiedy <strong> przystępujesz do walki</strong>, ustaw  rangę każdego z twoich wrogów.</p>\n<ul>\n<li>Kłopotliwy przeciwnik: 3 postepu na kazdą ranę; zadaje 1 ranę.</li>\n<li>Niebezpieczny przeciwnik: 2 postepu na kazdą ranę; zadaje 2 rany.</li>\n<li>Przytłaczający przeciwnik: 1 postepu na kazdą ranę; zadaje 3 rany.</li>\n<li>Ekstremalny przeciwnik: 2 ticki(kreski) na ranę; zadaje 4 rany.</li>\n<li>Epicki przeciwnik: 1 tick(kreska) na ranę; zadaje 5 rany.</li>\n</ul>\n<p>Następnie, rzuć koścmi wyzwania by zobaczyć kto ma inicjatywę. Jeśli...</p>\n<ul>\n<li>Stawiasz czoła wrogowi: Rzuć +Serce.</li>\n<li>Ustawiasz się w pozycji przeciwko nieświadomemu wrogowi, lub uderzasz bez ostrzeżenia: Rzuć +Cień.</li>\n<li>Wpadłeś w zasadzkę: rzuć +Rozum.</li>\n</ul>\n",
 			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, Zyskaj <b>+2 Impetu</b>. Masz inicjatywę.</p>\n",
 			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, Wybierz jedno.</p>\n<ul>\n<li>Wzmocnij swoją pozycję: Zyskaj <b>+2 Impetu</b>.</li>\n<li>Przygotuj się do działania: Przejmij inicjatywę.</li>\n</ul>\n",
 			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, walka rozpoczyna się w niekorzystnej dla ciebie sytuacji. <em>Zapłać Cenę</em>. Ponadto oddajesz przeciwnikowi inicjatywę</p>\n"
@@ -134,7 +134,7 @@
 		},
 		"Face a Setback": {
 			"name": "Zmierz się z Niepowodzeniem",
-			"description": "<p>Kiedy <strong>your Impet jest ignorowany przy tym rzucie</strong> (-6), i <strong>Tracisz</strong> dodatkowe -Impetu, wybierz jedno.</p>\n<ul>\n<li>Wymień każdy -Impetu za dowolną kombinację -Zdrowie, -Duch, albo -Zasoby stosownie do okoliczności.</li>\n<li>Rozważ zdarzenie bądź odkrycie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien) które utrudnia ci postęp w bieżącym zadaniu, podróży lub walce. Następnie, za każdy brakujący -Impet, usuń 1 jednostki postępu na tym torze za każdą jego rangę. (kłopotliwy=wyczyść 3 punkty postepu; niebezpieczny=wyczyść 2 punkty postepu; przytłaczający=wyczyśc 1 punkt postepu; ekstremalny=wyczyść 2 ticki(kreski); epicki=wyczyść 1 tick(kreskę).</li>\n</ul>\n"
+			"description": "<p>Kiedy <strong>twój Impet jest ignorowany przy tym rzucie</strong> (-6), i <strong>Tracisz</strong> dodatkowe -Impetu, wybierz jedno.</p>\n<ul>\n<li>Wymień każdy -Impetu za dowolną kombinację -Zdrowie, -Duch, albo -Zasoby stosownie do okoliczności.</li>\n<li>Rozważ zdarzenie bądź odkrycie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien) które utrudnia ci postęp w bieżącym zadaniu, podróży lub walce. Następnie, za każdy brakujący -Impet, usuń 1 jednostki postępu na tym torze za każdą jego rangę. (kłopotliwy=wyczyść 3 punkty postepu; niebezpieczny=wyczyść 2 punkty postepu; przytłaczający=wyczyśc 1 punkt postepu; ekstremalny=wyczyść 2 ticki(kreski); epicki=wyczyść 1 tick(kreskę).</li>\n</ul>\n"
 		},
 		"Find an Opportunity": {
 			"name": "Znajdź okazję",
@@ -188,7 +188,7 @@
 		},
 		"Make Camp": {
 			"name": "Rozbij Obóz",
-			"description": "<p>Kiedy <strong>you odpocząć i zregenerować siły przez kilka godzin w dziczy</strong>, rzuć +Zasoby.</p>\n",
+			"description": "<p>Kiedy <strong> odpoczywasz i regenerujesz siły przez kilka godzin w dziczy</strong>, rzuć <b>+Zasoby</b>.</p>\n",
 			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, ty i twoi towarzysze możecie wybrać po dwa. </p>\n",
 			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, wybierz jedno.</p>\n<ul>\n<li>Powróć do zdrowia: Zyskaj +1 Zdrowia sobie i twoich towarzyszy.</li>\n<li>Posil się: Strać -1 Zasobów i Zyskaj <b>+1 Impetu</b> sobie i towarzyszom.</li>\n<li>Zrelaksuj się: Zyskaj +1 Ducha.</li>\n<li>Skup się: Zyskaj <b>+1 Impetu</b>.</li>\n<li>Przygotuj się: Kiedy kończysz obozować, dodaj +1 jeśli Wyruszasz w Podróż.</li>\n</ul>\n",
 			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, nie zaznajesz odpoczynku. <em>Zapłać Cenę</em>.</p>\n"
@@ -203,7 +203,7 @@
 		},
 		"Pay the Price": {
 			"name": "Zapłać Cenę",
-			"description": "<p>Kiedy <strong>you ponosisz konsekwencję wyniku ruchu</strong>, wybierz jedno.</p>\n<ul>\n<li>Spowoduj, aby wydarzył się najbardziej oczywisty negatywny rezultat.</li>\n<li>Rozważ Dwa negatywne rezultaty. Uznaj jeden za 'prawdopodobny', i <em>Zapytaj Wyrocznię</em> używają tabeli tak/nie. Jeśli odpowiedzią jest 'tak', wydarza się ten rezultat. W przeciwnym razie dzieje się drugi rezultat.</li>\n<li>Rzuć na @Compendium[foundry-ironsworn.ironsworntables.D4mUSL3IXtFRfMhi]{Zapłać Cenę} tabelę.. Jeśli masz problem z interpretacją wyniku, aby dopasować go do aktualnej sytuacji, rzuć jeszcze raz.</li>\n</ul>\n"
+			"description": "<p>Kiedy <strong>ponosisz konsekwencję wyniku ruchu</strong>, wybierz jedno.</p>\n<ul>\n<li>Spowoduj, aby wydarzył się najbardziej oczywisty negatywny rezultat.</li>\n<li>Rozważ Dwa negatywne rezultaty. Uznaj jeden za 'prawdopodobny', i <em>Zapytaj Wyrocznię</em> używają tabeli tak/nie. Jeśli odpowiedzią jest 'tak', wydarza się ten rezultat. W przeciwnym razie dzieje się drugi rezultat.</li>\n<li>Rzuć na @Compendium[foundry-ironsworn.ironsworntables.D4mUSL3IXtFRfMhi]{Zapłać Cenę} tabelę.. Jeśli masz problem z interpretacją wyniku, aby dopasować go do aktualnej sytuacji, rzuć jeszcze raz.</li>\n</ul>\n"
 		},
 		"Reach Your Destination": {
 			"name": "Dotrzyj Do Celu",
@@ -287,7 +287,7 @@
 		},
 		"Write Your Epilogue": {
 			"name": "Napisz Swój Epilog",
-			"description": "<p>Kiedy <strong>you wycofujesz się z życia jako Ironsworn</strong>, Rozważ dwie rzeczy: Na co masz nadzieję, oraz czego się obawiasz. Następnie, rzuć koścmi wyzwania i porównaj z twoimi więziami. Impet jest ignorowany przy tym rzucie.</p>\n",
+			"description": "<p>Kiedy <strong> wycofujesz się z życia jako Ironsworn</strong>, Rozważ dwie rzeczy: Na co masz nadzieję, oraz czego się obawiasz. Następnie, rzuć koścmi wyzwania i porównaj z twoimi więziami. Impet jest ignorowany przy tym rzucie.</p>\n",
 			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, wszystko się spełniło, tak jak miałeś nadzieję.</p>\n",
 			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, twoje życie przybrało nieoczekiwany obrót, ale niekoniecznie na gorsze. Być może, że spędzasz dni z kimś lub w miejscu, którego nie przewidziałeś. Rozważ to (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien).</p>\n",
 			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, Twoje obawy się spełniły. </p>\n"
