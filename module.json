@@ -1,0 +1,76 @@
+{
+  "title": "Ironsworn - Polski",
+  "description": "Polskie tłumaczenie dla systemu Ironsworn i dodatku Delve.",
+  "version": "1.1",
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "url": "https://github.com/jesberpen/ironsworn-es-es",
+  "manifest": "https://raw.githubusercontent.com/gorvaine/ironsworn-es-es/updateV10/module.json",
+  "download": "https://github.com/Gorvaine/ironsworn-es-es/archive/refs/tags/2.4.zip",
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "pl.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ironsworn-delve-temas-es",
+      "label": "Ironsworn Delve Temas [ES]",
+      "path": "packs/ironsworn-delve-temas-es.db",
+      "type": "Item",
+      "system": "foundry-ironsworn",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "ironsworn-delve-territorios-es",
+      "label": "Ironsworn Delve Territorios [ES]",
+      "path": "packs/ironsworn-delve-territorios-es.db",
+      "type": "Item",
+      "system": "foundry-ironsworn",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "ironsworn-tablas-solo-es",
+      "label": "Ironsworn Tablas [Solo ES]",
+      "path": "packs/ironsworn-tablas-solo-es.db",
+      "type": "RollTable",
+      "system": "foundry-ironsworn",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "id": "ironsworn-pl-pl",
+  "authors": [
+    {
+      "name": "Potatronus & Alib",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "foundry-ironsworn",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.8.9",
+    "verified": "10"
+  }
+}
