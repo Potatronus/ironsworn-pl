@@ -26,7 +26,7 @@ To jest fanowskie tłumaczenie. / This translation is fan made.
 
 # Credits/License 
 - This module is based on ironsworn es-es module developed by jesberpen (https://github.com/jesberpen/ironsworn-es-es)
-- - Ten moduł jest oparty na module ironsworn es-es opracowanym przez jesberpen (https://github.com/jesberpen/ironsworn-es-es)
+- Ten moduł jest oparty na module ironsworn es-es opracowanym przez jesberpen (https://github.com/jesberpen/ironsworn-es-es)
 
 - This translation is to be used with Ironsworn system module developed by Ben Straub (https://github.com/ben/foundry-ironsworn)
 - This work is based on Ironsworn and Ironsworn Delve (https://www.ironswornrpg.com/), developed by Shawn Tomkin.
