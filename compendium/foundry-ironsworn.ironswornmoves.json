@@ -121,9 +121,9 @@
 		"Face Death": {
 			"name": "Zmierz się ze Śmiercią",
 			"description": "<p>Kiedy <strong>zostajesz doprowadzony na skraj śmierci</strong> i będziesz mógł zobaczyć zaświaty <b>+Serce</b>.</p>\n",
-			"strong": "<p>Jeśli osiągasz <strong>éxito total</strong>, śmierć cię odrzuca. Zostajesz wrzucony z powrotem do świata śmiertelników.</p>\n",
-			"weak": "<p>Jeśli osiągasz <strong>éxito parcial</strong>, wybierz jedno.</p>\n<ul>\n<li>Umierasz, ale wpierw dokonujesz szlachetnego poświęcenia. Opisz swoje ostatnie chwile.</li>\n<li>Śmierć pragnie czegoś od ciebie w zamian za twoje życie. Zastanów się, czego pragnie (<em>Zapytaj Wyrocznijk</em> jeśli nie jesteś pewien) a następnie <em>Złóż Żelazną Przysięgę</em> (nadzywczajną bądź ekstremalną) aby ukończyć to zadanie. Jeśli ponosisz porażkę, podczas <em>Składania Żelaznej Przysięgi</em> lub odmawiasz wykonania zadania, umierasz. W przeciwnym razie wracasz do świata śmiertelników i jesteś teraz <b>przeklęty</b>. Możesz oczyścić się z <b>przeklętego</b> stanu tylko poprzez wykonanie zadania</li>\n</ul>\n",
-			"miss": "<p>Jeśli ponosisz <strong>fallo</strong>, umierasz.</p>\n"
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, śmierć cię odrzuca. Zostajesz wrzucony z powrotem do świata śmiertelników.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, wybierz jedno.</p>\n<ul>\n<li>Umierasz, ale wpierw dokonujesz szlachetnego poświęcenia. Opisz swoje ostatnie chwile.</li>\n<li>Śmierć pragnie czegoś od ciebie w zamian za twoje życie. Zastanów się, czego pragnie (<em>Zapytaj Wyrocznijk</em> jeśli nie jesteś pewien) a następnie <em>Złóż Żelazną Przysięgę</em> (nadzywczajną bądź ekstremalną) aby ukończyć to zadanie. Jeśli ponosisz porażkę, podczas <em>Składania Żelaznej Przysięgi</em> lub odmawiasz wykonania zadania, umierasz. W przeciwnym razie wracasz do świata śmiertelników i jesteś teraz <b>przeklęty</b>. Możesz oczyścić się z <b>przeklętego</b> stanu tylko poprzez wykonanie zadania</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, umierasz.</p>\n"
 		},
 		"Face Desolation": {
 			"name": "Staw Czoło Spustoszeniu",
