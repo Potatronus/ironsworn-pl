@@ -3,7 +3,8 @@ Polski moduł babele dla systemu Ironsworn Foundry VTT<br>
 Nie jestem również programistą, więc ewentualne prace idą bardzo powoli. Każdy element musze uczyć się jak go wykonywać.
 <br>Wszelkie porady/bugi prosze wysyłać na discorda: Potatronus#0666
 <br>Polish babele module for Ironsworn Foundry VTT system
-I am also not a programmer, so the possible work goes very slowly, each element I have to learn how to do it.<br> Any tips/bugs please send to discord: Potatronus#0666
+I am also not a programmer, so the possible work goes very slowly, each element I have to learn how to do it.
+<br>Any tips/bugs please send to discord: Potatronus#0666
 
 To jest fanowskie tłumaczenie. / This translation is fan made.
 
