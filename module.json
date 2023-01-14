@@ -18,31 +18,31 @@
   ],
   "packs": [
     {
-      "name": "ironsworn-delve-motywy-pl.db",
-      "label": "Ironsworn Delve Motywy PL",
-      "path": "packs/ironsworn-delve-motywy-pl.db",
+     "name": "ironsworn-delve-temas-es",
+      "label": "Ironsworn Delve Temas [ES]",
+      "path": "packs/ironsworn-delve-temas-es.db",
       "type": "Item",
       "system": "foundry-ironsworn",
-      "private": false,
-      "flags": {}
+      "module": "ironsworn-es-es",
+      "private": false
     },
     {
-      "name": "ironsworn-delve-terytoria-pl.db",
-      "label": "Ironsworn Delve Terytoria PL",
-      "path": "packs/ironsworn-delve-terytoria-pl.db",
+      "name": "ironsworn-delve-territorios-es",
+      "label": "Ironsworn Delve Territorios [ES]",
+      "path": "packs/ironsworn-delve-territorios-es.db",
       "type": "Item",
       "system": "foundry-ironsworn",
-      "private": false,
-      "flags": {}
+      "module": "ironsworn-es-es",
+      "private": false
     },
     {
-      "name": "ironsworn-tabele-pl.db",
-      "label": "Ironsworn Tabele PL",
-      "path": "packs/ironsworn-tabele-pl.db",
+      "name": "ironsworn-tablas-solo-es",
+      "label": "Ironsworn Tablas [Solo ES]",
+      "path": "packs/ironsworn-tablas-solo-es.db",
       "type": "RollTable",
       "system": "foundry-ironsworn",
-      "private": false,
-      "flags": {}
+      "module": "ironsworn-es-es",
+      "private": false
     }
   ],
   "id": "ironsworn-pl-pl",
