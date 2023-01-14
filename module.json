@@ -23,7 +23,7 @@
       "path": "packs/ironsworn-delve-temas-es.db",
       "type": "Item",
       "system": "foundry-ironsworn",
-      "module": "ironsworn-es-es",
+      "module": "ironsworn-pl-pl",
       "private": false
     },
     {
@@ -32,7 +32,7 @@
       "path": "packs/ironsworn-delve-territorios-es.db",
       "type": "Item",
       "system": "foundry-ironsworn",
-      "module": "ironsworn-es-es",
+      "module": "ironsworn-pl-pl",
       "private": false
     },
     {
@@ -41,7 +41,7 @@
       "path": "packs/ironsworn-tablas-solo-es.db",
       "type": "RollTable",
       "system": "foundry-ironsworn",
-      "module": "ironsworn-es-es",
+      "module": "ironsworn-pl-pl",
       "private": false
     }
   ],
