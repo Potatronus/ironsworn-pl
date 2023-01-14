@@ -1,5 +1,5 @@
 {
-	"label": "Ironsworn Movimientos",
+	"label": "Ironsworn Moves",
 	"mapping": {
 		"description": "system.Text",
 		"strong": "system.Outcomes.Strong Hit.Text",
