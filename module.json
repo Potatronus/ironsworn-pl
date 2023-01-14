@@ -36,9 +36,9 @@
       "flags": {}
     },
     {
-      "name": "ironsworn-tablas-solo-es",
-      "label": "Ironsworn Tablas [Solo ES]",
-      "path": "packs/ironsworn-tablas-solo-es.db",
+      "name": "ironsworn-tabele-pl.db",
+      "label": "Ironsworn Tabele PL",
+      "path": "packs/ironsworn-tabele-pl.db",
       "type": "RollTable",
       "system": "foundry-ironsworn",
       "private": false,
