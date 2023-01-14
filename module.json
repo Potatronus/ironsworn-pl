@@ -27,9 +27,9 @@
       "flags": {}
     },
     {
-      "name": "ironsworn-delve-territorios-es",
-      "label": "Ironsworn Delve Territorios [ES]",
-      "path": "packs/ironsworn-delve-territorios-es.db",
+      "name": "ironsworn-delve-terytoria-pl.db",
+      "label": "Ironsworn Delve Terytoria PL",
+      "path": "packs/ironsworn-delve-terytoria-pl.db",
       "type": "Item",
       "system": "foundry-ironsworn",
       "private": false,
