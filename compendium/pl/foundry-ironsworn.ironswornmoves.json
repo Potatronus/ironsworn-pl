@@ -1,0 +1,296 @@
+{
+	"label": "Ironsworn Movimientos",
+	"mapping": {
+		"description": "system.Text",
+		"strong": "system.Outcomes.Strong Hit.Text",
+		"weak": "system.Outcomes.Weak Hit.Text",
+		"miss": "system.Outcomes.Miss.Text"
+	},
+	"entries": {
+		"Advance": {
+			"name": "Rozwiń umiejętności",
+			"description": "<p>Kiedy <strong>poprawiasz swoje umiejętności, przechodzisz szkolenie, znajdujesz inspirację, otrzymujesz nagrodę lub zyskujesz towarzysza</strong>, możesz wydać 3 doświadczenia(EXP) by dodać nowy <strong>Aspekt</strong>, bądź 2 doświdaczenia(EXP) by ulepszyć <strong>Aspekt</strong>.</p>\n"
+		},
+		"Advance a Threat": {
+			"name": "Zwiększ zagrożenie",
+			"description": "<p>Kiedy <strong>dajesz powód zagrożeniu poprzez brak działania, zaniechanie lub zwłokę</strong>, rzuć na poniższą tabelę i rozważ jak zmiana przejawia się w twoim świecie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). </p>\n<table>\n<thead>\n<tr>\n<th>Rzut</th>\n<th>Wynik</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-30</td>\n<td>Zagrożenie przygotowuje się na następny krok, albo pojawia się nowe niebezpieczeństwo. Jeśli jesteś w stanie zapobiec temu wydarzeniu, możesz podjąć taką próbę. Jeśli odnosisz sukces, <em>Osiągnij Kamień Milowy</em>. W przeciwnym razie, zaznacz zagrożenie.</td>\n</tr>\n<tr>\n<td>31-70</td>\n<td>Zagrożenie działa w sposób subtelny, aby osiągnąć swoje cele, lub niebezpieczeństwo eskaluje. Zaznacz Zagrożenie.</td>\n</tr>\n<tr>\n<td>71-00</td>\n<td>Zagrożenie wykonuje dramatyczny i błyskawiczny ruch, lub ważne wydarzenie ujawnia nowe komplikacje. Zaznacz Zagrożenie dwa razy.</td>\n</tr>\n</tbody></table>\n<p>Jeśli osiągniesz Triumf, rozwój wydarzeń ujawni również zaskakujący aspekt planu lub natury zagrożenia..</p>\n<p>Jeśli <strong>zaznaczasz ostatnie pole na torze Zagrożenia</strong>, zagrożenie osiąga swój cel, lub następuje ostateczny i tragiczny rezultat. musisz <em>Porzucić Swą Przysięgę</em>.</p>\n"
+		},
+		"Aid Your Ally": {
+			"name": "Wspomóż Sojusznika",
+			"description": "<p>Kiedy <strong><em>Zapewniasz Sobie Przewagę</em> bezpośrednio wspierając sojusznika/ów</strong>, i osiągniesz sukces, sojusznik/cy (zamiast ciebie) mogą czerpać z korzyści tego ruchu. Jeśli w walce osiągasz <strong>pełny sukces</strong>, ty i twój/i sojusznik/cy macie inicjatywę .</p>\n"
+		},
+		"Ask the Oracle": {
+			"name": "Zapytaj Wyrocznię",
+			"description": "<p>Kiedy <strong>starasz się odpowiadać na pytania, odkrywać szczegóły świata, ustalać reakcje innych postaci, wywoływać spotkania lub wydarzenia</strong>, możesz...</p>\n<ul>\n<li>Draw a conclusion: Decide the answer based on the most interesting and obvious result.</li>\n<li>Ask a yes/no question: Decide the odds of a ‘yes’, i rzuć on the table below to check the answer.</li>\n<li>Pick two: Rozważ two options. Rate one as ‘likely’, i rzuć on the table below to see if it is true. If not, it is the other.</li>\n<li>Spark an idea: Brainstorm or use a random prompt.</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Odds</th>\n<th>The answer is ‘yes’ if you roll...</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Almost Certain</td>\n<td>11 or greater</td>\n</tr>\n<tr>\n<td>Likely</td>\n<td>26 or greater</td>\n</tr>\n<tr>\n<td>50/50</td>\n<td>51 or greater</td>\n</tr>\n<tr>\n<td>Unlikely</td>\n<td>76 or greater</td>\n</tr>\n<tr>\n<td>Small Chance</td>\n<td>91 or greater</td>\n</tr>\n</tbody></table>\n"
+		},
+		"Battle": {
+			"name": "Tocz Bitwę",
+			"description": "<p>Kiedy <strong>toczysz bitwę, a ona dzieje się w mgnieniu oka.</strong>, Rozważ swój zamiar i rzuć. Jeśli przede wsyzstkim:</p>\n<ul>\n<li>Walczysz na odległość, lub wykorzystując swoją szybkość i teren na swoją korzyść: Rzuć +Sprawność.</li>\n<li>Walczysz polegając na odwadze swojej, sprzymierzeńców lub towarzyszy: Rzuć +Serce.</li>\n<li>Prowadzisz walkę w zwarciu, aby przezwyciężyć swoich wrogów: Rzuć +Żelazo.</li>\n<li>Walczysz używając podstępu, aby wyprowadzić przeciwników w pole.: Rzuć +Cień.</li>\n<li>Walczysz używając przemyślanej taktyki, aby przechytrzyć przeciwników: rzuć +Rozum.</li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, udaje Ci się osiągnąć twój zamiar bezwarunkowo. Zyskujesz <b>+2 Impetu</b>.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, udaje Ci się osiągnąć twój zamiar, ale nie bez kosztów. <em>Zapłać Cenę</em>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, jesteś pokonany i cel jest dla ciebie nieosiągalny. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Check Your Gear": {
+			"name": "Sprawdź Swój Sprzęt",
+			"description": "<p>Kiedy <strong>sprawdzasz, czy masz konkretny, pomocny przedmiot</strong>, i masz co najmniej +1 zasobów, rzuć <b>+Zasoby</b>.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, masz go. Dodatkowo Zyskujesz <b>+1 Impetu</b>.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, masz go, ale twoje zasoby są zmniejszone. Zyskujesz <b>+1 Impetu</b> oraz Tracisz <b>-1 Zasobów</b>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, nie masz go i sytuacja staje się coraz bardziej niebezpieczna. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Clash": {
+			"name": "Zetrzyj się",
+			"description": "<p>Kiedy <strong>Twój wróg ma inicjatywę i walczysz z nim w zwarciu</strong>, Rzuć <b>+Żelazo</b>. Gdy wymieniasz salwę na odległość, lub strzelasz do nacierającego wroga. Rzuć <b>+Sprawność</b>.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, odzyskujesz inicjatywę. Zadaj ranę i Wybierz jedno.</p>\n<ul>\n<li>You Wzmocnij swoją pozycję: Zyskujesz <b>+1 Impetu</b>.</li>\n<li>Znajdujesz lukę w obronie: Zadaj +1 Ranę.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, zadaj ranę, ale musisz <wm>Zapłacić Cenę</em>. Ponadto oddajesz przeciwnikowi inicjatywę</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, zostajesz pokonany i musisz <em>Zapłacić Cenę</em>. Ponadto oddajesz przeciwnikowi inicjatywę</p>\n"
+		},
+		"Companion Endure Harm": {
+			"name": "Towarzysze: Staw Czoła Ranom",
+			"description": "<p>Kiedy <strong>twojemu towarzyszowi grozi uszkodzenie ciała</strong>, <strong>Traci</strong> -Zdrowie <b>równej</b> wielkości wyrządzonej <strong>rany</strong>. Jeśli zdrowie twojego towarzysza jest równe 0, wymień każde brakujące -Zdrowie za -Impet. Następnie, rzuć +Serce albo +Zdrowie <strong>twojego Towarzysza</strong>, w zależności co jest wyższe.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, twój towarzysz podnosi się. Dodaj mu <b>+1 Zdrowia</b>.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>,Twój towarzysz jest poobijany. Jeśli jego zdrowie jest równe 0, nie może ci pomóc, dopóki nie zdobędzie co najmniej <b>+1 Zdrowia</b>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, Tracisz -1 <b>Impetu</b>. Jeśli zdrowie twojego towarzysza jest równe 0, oznacza to, że jest ciężko ranny i wyłączony z akcji. Bez pomocy umrze w ciągu godziny bądź dwóch. Jeśli wyrzucisz porazkę z 1 na swojej <strong>kości akcji</strong>, a zdrowie twojego towarzysza wynosi 0, jest martwy. Weź 1 doświadczenie za każdą zaznaczoną umiejętność na <strong>Aaspekcie</strong> towarzysza i usuń ten Aspekt.</p>\n"
+		},
+		"Compel": {
+			"name": "Przekonaj",
+			"description": "<p>Kiedy <strong>próbujesz przekonać kogoś do czegoś</strong>, rozważ jak do tego podchodzisz i rzuć. Jeśli działasz za pomocą</p>\n<ul>\n<li>Uroku osobistego, dyplomacji, targu, bądź argumentów: Rzuć +Serce (dodaj +1 jeśli łączy was więź).</li>\n<li>Zastraszania bądź podżęgania: Rzuć +Żelazo.</li>\n<li>Kłamstwa bądź szwindlu: Rzuć +Cień.</li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zrobią to, co chcesz lub podzielą się tym, co wiedzą. Zyskujesz <b>+1 Impetu</b>. Jeśli następnym ruchem będzie<em>Zbieranie Informacji</em> dodaj +1 do rzutu.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, jak powyżej, ale cel będzie chciał coś w zamian. Rożwasz czego chce (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien).</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, cel odmawia bądź prosi o coś czego koszt jest niewspółmierny. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Delve the Depths": {
+			"name": "Sięgnij w Nieznane",
+			"description": "<p>Kiedy <strong>przemieszczasz się przez obszar w niebezpiecznym miejscu</strong>, Rozważ twoje otoczenie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Następnie, zastanów się nad swoim podejściem. Jeśli poruszasz się po tym obszarze...</p>\n<ul>\n<li>Pospiesznie: Rzuć <b>+Sprawność</b>.</li>\n<li>Cicho i przebiegle: Rzuć <b>+Cień</b>.</li>\n<li>Z pomocą intuicji, wiedzy bądź wnikliwej obserwacji: rzuć <b>+Rozum</b>.</li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zagłębiasz się bardziej. Zaznacz postęp <em>Znajdź Okazję</em>. </p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, Rzuć na poniższą tabelę zgodnie z twoimi statystykami.</p>\n<table>\n<thead>\n<tr>\n<th>Sprawność</th>\n<th>Cień</th>\n<th>Wits</th>\n<th>Częściowym sukcesie Result</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-45</td>\n<td>1-30</td>\n<td>1-40</td>\n<td>Mark progress and <em>Reveal a Danger</em>.</td>\n</tr>\n<tr>\n<td>46-65</td>\n<td>31-65</td>\n<td>41-55</td>\n<td>Mark progress.</td>\n</tr>\n<tr>\n<td>66-75</td>\n<td>66-90</td>\n<td>56-80</td>\n<td>Wybierz jedno: Mark progress or <em>Find an Opportunity</em>.</td>\n</tr>\n<tr>\n<td>76-80</td>\n<td>91-99</td>\n<td>81-99</td>\n<td>Take both: Mark progress and <em>Find an Opportunity</em>.</td>\n</tr>\n<tr>\n<td>81-00</td>\n<td>00</td>\n<td>00</td>\n<td>Mark progress twice and <em>Reveal a Danger</em>.</td>\n</tr>\n</tbody></table>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, <em>Reveal a Danger</em>.</p>\n"
+		},
+		"Discover a Site": {
+			"name": "Okdryj Miejsce",
+			"description": "<p>Kiedy <strong>postanawiasz wejść na niebezpieczny teren w dążeniu do osiągnięcia zamierzonego celu</strong>, wybierz <b>motyw</b> i <b>domenę</b>, które najlepiej oddają jego charakter (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), następnie, nadaj rangę temu miejscu.</p>\n<ul>\n<li>Kłopotliwe miejsce: 3 pola postępu na obszar.</li>\n<li>Niebezpieczne miejsca: 2 pola postępu na obszar.</li>\n<li>Formidable site: 1 progress per area.</li>\n<li>Extreme site: 2 ticki(kreski) per area.</li>\n<li>Epic site: 1 tick per area.</li>\n</ul>\n<p>If you are returning to a previously explored site, roll both challenge dice, take the lowest value, and clear that number of progress boxes.</p>\n<p>Następnie, wstrong>Delve the Depths</strong> to explore this place.</p>\n"
+		},
+		"Draw the Circle": {
+			"name": "Wyzwij na Pojedynek",
+			"description": "<p>Kiedy <strong>wyzywasz kogoś na formalny pojedynek lub przyjmujesz wyzwanie</strong>, Rzuć +Serce. Jeśli posiadasz więź z tą społecznością, dodaj +1.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, Zyskujesz <b>+1 Impetu</b>. Możesz też wybrać do dwóch przechwałek, za każdą Zyskujesz <b>+1 Impetu</b>.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>,  Wybierz jedną przechwałkę w zamian za <b>+1 Impetu</b>.</p>\n<ul>\n<li>Przyznaj pierwsze uderzenie: Oddajesz przeciwnikowi inicjatywę</li>\n<li>Obnaż się: Walczysz bez tarczy i pancerza (otrzymujesz korzyści z pancerza i tarczy); twój przeciwnik zadaje +1 ranę.</li>\n<li>Bez żelaza: Walczysz bez broni (nie otrzymujesz korzyści z broni); zadajesz 1 ranę.</li>\n<li>Okryj się krwią: <em>Staw Czoła Ranom</em> (1 rana).</li>\n<li>Na śmierć i życie: W ten czy inny sposób walka musi zakończyć się śmiercią.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, rozpoczynasz pojedynek w niekorzystnej sytuacji. Oddajesz przeciwnikowi inicjatywę <em>Zapłać Cenę</em>. Następnie, wykonaj ruchy by rozstrzygnąć walkę. Jeśli jesteś zwycięzcą, możesz wysunąć zgodne z prawem żądanie, a twój przeciwnik musi je spełnić lub stracić honor i pozycję. Jeśli odrzucisz wyzwanie, poddasz się lub zostaniesz pokonany, twój przeciwnik ma prawo do własnych żądań.</p>\n"
+		},
+		"End the Fight": {
+			"name": "Zakończ Walkę",
+			"description": "<p>Kiedy <strong>wykonujesz ruch, aby podjąć rozstrzygające działanie</strong>, i uzyskujesz pełny sukces, możesz rozstrzygnąć wynik tej walki. Jeśli to robisz, Rzuć koścmi wyzwania i porównaj z postępem walki. Impet jest ignorowany przy tym rzucie.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, ten wróg nie bierze już udziału w walce. Zostaje zabity, wyłączony z akcji, ucieka lub poddaje się w zależności od sytuacji i twoich zamiarów. (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien).</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, jak powyżej, ale musisz także wybrać jedno.</p>\n<ul>\n<li>Jest gorzej niż myślałeś: <em>Staw Czoła Ranom</em>.</li>\n<li>Jesteś w szoku[overcome]: <em>Staw Czoła Stresowi</em>.</li>\n<li>Twoje zwycięstwo jest krótkotrwałe: Pojawia się nowe niebezpieczeństwo lub wróg, albo istniejące niebezpieczeństwo pogarsza się.</li>\n<li>Ponieś niezamierzone straty: Coś wartościowego zostało utracone lub uszkodzone, lub ktoś ważny musi ponieść koszty.</li>\n<li>Zapłacisz za to!: Cel wymyka się poza twój zasię.</li>\n<li>Inni tego nie zapomną: Ktoś się zemści za pokonanych.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, przegrałeś tę walkę. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Endure Harm": {
+			"name": "Staw Czoło Ranom",
+			"description": "<p>Kiedy <strong>grozi ci uszkodzenie fizyczne</strong>, Tracisz <b>-Zdrowie</b> równa randze twojego wroga lub stosownie do sytuacji. Jeśli twoje zdrowie wynosi 0, tracisz -Impet równy brakującemu -Zdrowiu. Następnie, rzuć +Żelazo lub +Życie, w zależności co jest wyższe.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, Wybierz jedno.</p>\n<ul>\n<li>Otrząśnij się: Jeśli twoje Zdrowie jest większe niż 0, Tracisz <b>-1 Impetu</b> w zamian za +1 Zdrowia.</li>\n<li>Przyjmij Ból: Zyskujesz <b>+1 Impetu</b>.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, walczysz dalej.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, Tracisz <b>-1 Impetu</b>. Jeśli twoje Zdrowie wynosi 0, musisz zaznaczyć ranę bądź okaleczony (jeśli nie masz jeszcze zaznaczonego) albo rzuć k100 na następująca tabelę.</p>\n<table>\n<thead>\n<tr>\n<th>Rzut</th>\n<th>Wynik</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-10</td>\n<td>Rana jest śmiertelna. <em>Staw Czoła Śmierci</em>.</td>\n</tr>\n<tr>\n<td>11-20</td>\n<td>Umierasz. Wymagasz <strong>Leczenia</strong> w ciągu najbliższej godziny bądź dwóch albo<em>Staw Czoło Śmierci.</em></td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Jesteś nieprzytomny i wyłączony z akcji. Pozostawiony w spokoju, wracasz do zmysłów po godzinie lub dwóch. Jeśli jesteś bezbronny wobec wroga, który nie jest skłonny do okazywania litości. <em>Staw Czoło Śmierci</em>.</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Zataczasz się i walczysz o zachowanie przytomności. Jeśli zaangażujesz się w jakąkolwiek energiczną aktywność (taką jak bieganie lub walka) zanim odpoczniesz przez kilka minut rzuć na tę tabelę jeszcze raz (przed rozstrzygnięciem innego ruchu).</td>\n</tr>\n<tr>\n<td>51-00</td>\n<td>Jesteś poobijany, ale wciąż stoisz.</td>\n</tr>\n</tbody></table>\n"
+		},
+		"Endure Stress": {
+			"name": "Staw Czoło Stresowi",
+			"description": "<p>Kiedy <strong>doświadczasz szoku psychicznego lub rozpaczy</strong>, Tracisz -Duch równy randze twojego wroga lub odpowiedni do sytuacji. Jeśli twój Duch jest równy 0, Tracisz -Impetu równemu pozostałęmu -Duch. Następnie, rzuć +Duch lub +Serce w zależności co jest wyższe.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, Wybierz jedno.</p>\n<ul>\n<li>Otrząsasz się: Jeśli twój Duch jest większy niż 0, Tracisz <b>-1 Impetu</b> w zamian za +1 Ducha</li>\n<li>Ujarzmij ciemność: Zyskujesz <b>+1 Impetu</b></li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, Nie poddajesz się.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, Tracisz <b>-1 Impetu</b>. Jeśli twój Duch jest równy 0, musisz zaznaczyć wstrząśnięy bądź skorumpowany (jeśli już nie są zaznaczone) lub rzucić na poniższą tabelę.</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Rezultat</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-10</td>\n<td>Jesteś przytłoczony. <strong>Staw Czoło Spustoszeniu</strong>.</td>\n</tr>\n<tr>\n<td>11-25</td>\n<td>Poddajesz się. <em>Porzuć Przysięgę</em> (jeśli to możliwe, tę związaną z obecnym kryzysem).</td>\n</tr>\n<tr>\n<td>26-50</td>\n<td>Poddajesz się strachowi lub przymusowi i działasz wbrew swoim własnym instynktom.</td>\n</tr>\n<tr>\n<td>51-00</td>\n<td>Wytrwałeś.</td>\n</tr>\n</tbody></table>\n"
+		},
+		"Enter the Fray": {
+			"name": "Przystąp do Walki",
+			"description": "<p>Kiedy <strong> przystępujesz do walki</strong>, ustaw  rangę każdego z twoich wrogów.</p>\n<ul>\n<li>Kłopotliwy przeciwnik: 3 postepu na kazdą ranę; zadaje 1 ranę.</li>\n<li>Niebezpieczny przeciwnik: 2 postepu na kazdą ranę; zadaje 2 rany.</li>\n<li>Przytłaczający przeciwnik: 1 postepu na kazdą ranę; zadaje 3 rany.</li>\n<li>Ekstremalny przeciwnik: 2 ticki(kreski) na ranę; zadaje 4 rany.</li>\n<li>Epicki przeciwnik: 1 tick(kreska) na ranę; zadaje 5 rany.</li>\n</ul>\n<p>Następnie, rzuć koścmi wyzwania by zobaczyć kto ma inicjatywę. Jeśli...</p>\n<ul>\n<li>Stawiasz czoła wrogowi: Rzuć +Serce.</li>\n<li>Ustawiasz się w pozycji przeciwko nieświadomemu wrogowi, lub uderzasz bez ostrzeżenia: Rzuć +Cień.</li>\n<li>Wpadłeś w zasadzkę: rzuć +Rozum.</li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, Zyskujesz <b>+2 Impetu</b>. Masz inicjatywę.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, Wybierz jedno.</p>\n<ul>\n<li>Wzmocnij swoją pozycję: Zyskujesz <b>+2 Impetu</b>.</li>\n<li>Przygotuj się do działania: Przejmij inicjatywę.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, walka rozpoczyna się w niekorzystnej dla ciebie sytuacji. <em>Zapłać Cenę</em>. Ponadto oddajesz przeciwnikowi inicjatywę</p>\n"
+		},
+		"Escape the Depths": {
+			"name": "Uciekaj z Głębin",
+			"description": "<p>Kiedy <strong>you flee or withdraw from a site</strong>, consider the situation and your approach. If you...</p>\n<ul>\n<li>Find the fastest way out: Rzuć +Sprawność.</li>\n<li>Steel yourself against the horrors of this place: Rzuć +Serce.</li>\n<li>Fight your way out: Rzuć +Żelazo.</li>\n<li>Retrace your steps or locate an alternate path: rzuć +Rozum.</li>\n<li>Keep out of sight: Rzuć +Cień.</li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, you make your way safely out of the site. Zyskujesz <b>+1 Impetu</b>. </p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, you find your way out, ale this place exacts its price. Wybierz jedno.</p>\n<ul>\n<li>You are weary or wounded: <em>Staw Czoła Ranom</em>.</li>\n<li>The experience leaves you shaken: <em>Staw Czoła Stresowi</em>.</li>\n<li>You are delayed, and it costs you.</li>\n<li>You leave behind something important.</li>\n<li>You face a new complication as you emerge from the depths.</li>\n<li>A denizen plots their revenge.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, a dire threat or imposing obstacle stands in your way. <em>Reveal a Danger</em>. If you survive, you may make your escape.</p>\n"
+		},
+		"Face Danger": {
+			"name": "Zmierz Się z Niebezpieczeństwem",
+			"description": "<p>Kiedy <strong>próbujesz czegoś ryzykownego lub reagujesz na bezpośrednie zagrożenie</strong>, opisz swoje działanie i rzuć. Jeśli działasz przy użyciu</p>\n<ul>\n<li>Szybkości, zwinności bądź precyzji: Rzuć: <b>+Sprawność</b>.</li>\n<li>Uroku, lojalności bądź odwagą: Rzuć <b>+Serce</b></li>\n<li>Agresji, siły lub wytrzymałości: rzuć <b>+Żelazo</b>.</li>\n<li>Podstępu, skrytośću bądź oszustwa: Rzuć <b>+Cień</b></li>\n<li>Wiedzy, wnikliwości bądź pilnej obserwacji rzuć <b>+Rozum</b></li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, twoje działanie kończy się powodzeniem! Zyskujesz +1 Impet.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, twoje działanie kończy się powodzeniem, ale z kłopotliwą kosekwencją. Wybierz jedno.</p>\n<ul>\n<li>Jesteś za późno, tracisz przewagę, bądź mierzysz się z nowym niebezpieczeństwem: Tracisz <b>-1 Impetu</b>.</li>\n<li>Jesteś zmęczony bądź zranionyt: <em>Staw Czoła Ranom</em> (1 rana).</li>\n<li>Jesteś rozproszony, zniechącony bądź przestraszony: <em>Staw Czoła Stresowi</em> (1 stress).</li>\n<li>Poświęcasz zasoby: Tracisz -1 Zasobów.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, ponosisz porażkę lub twój postęp zostanie zniweczony przez dramatyczny i kosztowny obrót wydarzeń. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Face Death": {
+			"name": "Zmierz się ze Śmiercią",
+			"description": "<p>Kiedy <strong>zostajesz doprowadzony na skraj śmierci</strong> i będziesz mógł zobaczyć zaświaty <b>+Serce</b>.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, śmierć cię odrzuca. Zostajesz wrzucony z powrotem do świata śmiertelników.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, wybierz jedno.</p>\n<ul>\n<li>Umierasz, ale wpierw dokonujesz szlachetnego poświęcenia. Opisz swoje ostatnie chwile.</li>\n<li>Śmierć pragnie czegoś od ciebie w zamian za twoje życie. Zastanów się, czego pragnie (<em>Zapytaj Wyrocznijk</em> jeśli nie jesteś pewien) a następnie <em>Złóż Żelazną Przysięgę</em> (nadzywczajną bądź ekstremalną) aby ukończyć to zadanie. Jeśli ponosisz porażkę, podczas <em>Składania Żelaznej Przysięgi</em> lub odmawiasz wykonania zadania, umierasz. W przeciwnym razie wracasz do świata śmiertelników i jesteś teraz <b>przeklęty</b>. Możesz oczyścić się z <b>przeklętego</b> stanu tylko poprzez wykonanie zadania</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, umierasz.</p>\n"
+		},
+		"Face Desolation": {
+			"name": "Staw Czoło Spustoszeniu",
+			"description": "<p>Kiedy <strong>zostaniesz doprowadzony na skraj spustoszenia.</strong>, Rzuć +Serce.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, opierasz się i kontynuujesz.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, wybierz jedno.</p>\n<ul>\n<li>Twój duch lub zdrowy rozsądek pęka, ale najpierw dokonujesz szalchetnego poświęcenia. Rozważ twoje ostatnie chwile.</li>\n<li>Masz wizję strasznego zdarzenia, które ma nastąpić. Rozważ mroczną przyszłośc (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), i <em>Złóż Żelazną Przysięgę</em> (przytłaczającą bądź ekstremalną) by temu zapobiec. Jeśli ponosisz porażkę gdy <em>Składasz Żelazną Przysięgę</em>, lub odmawiasz wykonania zadania, jesteś stracony. W przeciwnym razie wracasz do zmysłów i jesteś teraz <strong>dręczony</strong>. Stan <strong>dręczony</strong> może być usunięty tylko poprzez wykonanie tego zadania.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, poddajesz się rozpaczy lub przerażeniu i jesteś stracony.</p>\n"
+		},
+		"Face a Setback": {
+			"name": "Zmierz się z Niepowodzeniem",
+			"description": "<p>Kiedy <strong>twój Impet jest ignorowany przy tym rzucie</strong> (-6), i <strong>Tracisz</strong> dodatkowe -Impetu, wybierz jedno.</p>\n<ul>\n<li>Wymień każdy -Impetu za dowolną kombinację -Zdrowie, -Duch, albo -Zasoby stosownie do okoliczności.</li>\n<li>Rozważ zdarzenie bądź odkrycie (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien) które utrudnia ci postęp w bieżącym zadaniu, podróży lub walce. Następnie, za każdy brakujący -Impet, usuń 1 jednostki postępu na tym torze za każdą jego rangę. (kłopotliwy=wyczyść 3 punkty postepu; niebezpieczny=wyczyść 2 punkty postepu; przytłaczający=wyczyśc 1 punkt postepu; ekstremalny=wyczyść 2 ticki(kreski); epicki=wyczyść 1 tick(kreskę).</li>\n</ul>\n"
+		},
+		"Find an Opportunity": {
+			"name": "Znajdź okazję",
+			"description": "<p>Kiedy <strong>napotykasz na pomocną sytuację lub element miejsca</strong>, rzuć na poniższą tabelę. Jeśli wykonujesz ten ruch w wyniku <b>Pełnego Sukcesu</b> rzutu na <em>Udaj się Wgłąb</em>, możesz wybrać lub rożważyć możliwość zamiast rzutu.</p>\n<p>Następnie, wybierz jedno.</p>\n<ul>\n<li>UZyskujesz lepszy ogląd lub przygotuj się: Zyskujesz <b>+1 Impetu</b>.</li>\n<li>Zadziałaj natychmiast: Ty i wszyscy twoi sojusznicy mogą wykonać Ruch (ale nie Ruch Zadań) który bezpośrednio wykorzystuje możliwość. Gdy to robisz, dodaj +1 i Zyskujesz <b>+1 Impetu</b> przy sukcesie bądź częściowym sukcesie.</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Wynik</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-25</td>\n<td>Teren ci sprzyja, albo znajdujesz ukrytą ścieżkę.</td>\n</tr>\n<tr>\n<td>26-45</td>\n<td>Odkryty zostaje pewien element historii lub natury tego miejsca.</td>\n</tr>\n<tr>\n<td>46-57</td>\n<td>Znajdujesz bezpieczny obszar.</td>\n</tr>\n<tr>\n<td>58-68</td>\n<td>Wskazówka oferuje wiedzę(wgląd? Insight) lub kierunek.</td>\n</tr>\n<tr>\n<td>69-78</td>\n<td>Dostajesz szansę na zaskoczenie mieszkańca.</td>\n</tr>\n<tr>\n<td>79-86</td>\n<td>Ten obszar zapewnia możliwość poszukiwania pożywienia, żerowania lub polowania.</td>\n</tr>\n<tr>\n<td>87-90</td>\n<td>Znajdujesz interesujący lub pomocny przedmiot.</td>\n</tr>\n<tr>\n<td>91-94</td>\n<td>Zostajesz ostrzeżony o potencjalnym zagrożeniu.</td>\n</tr>\n<tr>\n<td>95-98</td>\n<td>Napotykasz mieszkańca, który może cię wesprzeć..</td>\n</tr>\n<tr>\n<td>99-00</td>\n<td>Napotykasz mieszkańca, który potrzebuje pomocy.p.</td>\n</tr>\n</tbody></table>\n"
+		},
+		"Forge a Bond": {
+			"name": "Wykuj Więź",
+			"description": "<p>Kiedy <strong>spędzasz dużo czasu z daną osobą lub społecznością, wspólnie stawiasz czoła trudnościom lub poświęcasz się dla jej sprawy</strong>, możesz spróbować stworzyć więź. Gdy to robisz, Rzuć +Serce. Jeśli wykonasz ten ruch po tym, jak z powodzeniem <em>Wypełnisz Żelazną Przysięgę</em> na ich korzyśc, możesz przerzucić dowolną z kości.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zanotuj utworzenie więzi, zaznacz tick(kreskę) na swoim torze więzi z tą osobą bądź społecznością i wybierz jedno.</p>\n<ul>\n<li>Zyskujesz +1 Ducha.</li>\n<li>Zyskujesz <b>+2 Impetu</b>.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, najpierw poproszą cię o coś więcej. Rozważ co to jest (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), zrób to (or <em>Złóż Żelazną Przysięgę/em>), i oznacz więź. Jeśli odmówisz bądź zawiedziesz, <em>Zapłać Cenę</em>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, zostajesz odtrącony. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Forsake Your Vow": {
+			"name": "Porzuć Przysięgę",
+			"description": "<p>Kiedy <strong>wyrzekasz się swojej misji, łamiesz obietnicę, lub cel jest dla ciebie nieosiągalny</strong>, usuń przysięgę i <em>Staw Czoła Stresowi</em>. Tracisz -Duch równy randze zadania (kłopotliwe=1; niebezpieczne=2; przytłaczające=3; ekstremalne=4; epickie=5). Jeśli przysięga została złożona wobec osoby lub wspólnoty, z którą łączy cię więź, <strong>Przetestuj Więź</strong> przy najbliższym spotkaniu.</p>\n"
+		},
+		"Fulfill Your Vow": {
+			"name": "Wypełnił Przysięgę",
+			"description": "<p>Kiedy <strong>osiągasz osiągniesz to, co uznajesz za wypełnianie swojej przysięgi</strong>, rzuć koścmi wyzwania i porównaj z postępem. Impet jest ignorowany przy tym rzucie.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, twoje zadanie jest ukończone. Zaznacz doświadczenie (kłopotliwe=1; niebezpieczne=2; przytłaczające=3; ekstremalne=4; epickie=5).</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, jest więcej do zrobienia, bądź dostrzegasz prawdę o twoim zadaniu. Rozważ co odkryłeś (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Następnie, zaznacz doświadczenie (kłopotliwe=0; niebezpieczne=1; przytłaczające=2; ekstremalne=3; epickie=4). Możesz <em>Złożyć Żelazną Przysięgę</em> aby wszystko naprawić. Jeśli to robisz, dodaj +1.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, Twoja misja została przerwana. Rozważ co się wydarzyło (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), i wybierz jedno.</p>\n<ul>\n<li>Powtórnie się zobowiązujesz: Wyczyść wszystkie oprócz jednego wypełnionego punktu postępu i podnieś rangę zadania o jeden (jeśli nie jest już epickie).</li>\n<li>Poddajesz się: <em>Porzuć Przysięgę</em>.</li>\n</ul>\n"
+		},
+		"Gather Information": {
+			"name": "Zbierz Informacje",
+			"description": "<p>Kiedy <strong>przeszukujesz teren, zadajesz pytania, prowadzisz śledztwo lub podążasz za tropem</strong>, rzuć +Rozum. Jeśli działasz w społeczności lub zadajesz pytanie osobie, z którą łączy cię więź, dodaj +1.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, odkrywasz coś pomocnego i konkretnego. Ścieżka, którą musisz podążać lub działania, które musisz podjąć, aby zrobić postęp, stają się jasne. Zastanów się, czego się nauczyłeś (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), oraz Zyskujesz <b>+2 Impetu</b>.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, informacja komplikuje twoje zadanie lub wprowadza nowe niebezpieczeństwo. Rozważ, co odkryłeś (<em>Zapytaj Wyrocznię</em> jeśli  nie jesteś pewien), i Zyskujesz <b>+1 Impetu</b>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, twoje śledztwo odkrywa poważne zagrożenie lub ujawnia niewiarygodną prawdę, która podważa twoje dążenia. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Heal": {
+			"name": "Wylecz",
+			"description": "<p>Kiedy <strong>leczysz uraz lub dolegliwość</strong>, rzuć <b>+Rozum</b>. Jeśli leczysz swoje własne rany, rzuć <b>+Rozum</b> albo <b>+Żelazo</b>, w zależności od tego, która z nich jest niższa.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, twoja opieka jest pomocna. Jeśli Ty (lub sojusznik pod Twoją opieką) posiadacie <strong>ranę</strong>, możesz ją ulczecyć (wyczyść kartę z tego stanu). Następnie dodaj sobie lub sojusznikowi +2 Zdrowia.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, jak powyżej, ale musisz Utracić -1 Zasobów albo <b>-1 Impetu</b> (twój wybór).</p>\n",
+			"misse": "<p>Jeśli ponosisz <strong>porażkę</strong>, twoja pomoc jest nieudolna. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Learn From Your Failures": {
+			"name": "Wyciągnij wnioski z porażek",
+			"description": "<p>Kiedy <strong>poświęcasz czas na refleksję nad swoimi porażkami i błędami.</strong>, i twój tor porażek ma 6 <b>pól</b> bądź więcej, rzuć <b>koścmi wyzwania(2k10)</b> i porównaj z dotychczasowymi postępami. Impet jest ignorowany przy tym rzucie.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zobowiązujesz się do dokonania radykalnej zmiany. Dodaj 3 punkty doświadczenia i wyczyśc cały postęp (tor porażek). Następnie, wybierz jedno.</p>\n<ul>\n<li>Zmień swoje podejścieh: Usuń jeden aspekt, i Zyskujesz 2 doświadczenia za każdą zaznaczoną umiejętność.</li>\n<li>Złóż przysięgę: <em>Złóż Żelazną Przysięgę</em>, i przerzuć dowolną kośc.</li>\n<li>Przygotuj swoje kolejne kroki: Zyskujesz +3 Impet.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, uczysz się na swoich błędach. Dodaj 2 punkty doświadczenia i wyczyśc cały postęp (tor porażek).</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, wyciągnąłeś złe wnioski. Dodaj 1 punkty doświadczenia i wyczyśc cały postęp (tor porażek). Następnie, rozważ dlaczego zszedłeś na złą drogę (obrałeś feralną ściezkę).</p>\n"
+		},
+		"Locate Your Objective": {
+			"name": "Zlokalizuj swój cel",
+			"description": "<p>Kiedy <strong>twoja eksploracja miejsca dobiega końca</strong>, roll koścmi wyzwania i porównaj z postępem. Impet jest ignorowany przy tym rzucie.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, lokalizujesz swój cel oraz okoliczności ci sprzyjają. Wybierz jedno.</p>\n<ul>\n<li>Wykonaj kolejny Ruch (ale nie Ruch Zadań), i dodaj +1 do tego rzutu.</li>\n<li>Zyskujesz <b>+1 Impetu</b>.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, zlokalizujesz swój cel ale mierzysz się z nieprzewidzianym niebezpieczeństwem lub komplikacjami. Rozważ co odkryłeś (<strong>Zapytaj Wyrocznię</strong> jeśli nie jesteś pewien).</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, twój cel wypada poza twój zasięg, zostałeś wprowadzony w błąd co do natury twojego celu, lub odkrywasz, że ta strona zawiera nieoczekiwaną głębię. Jeśli kontynuujesz ekslporację tego miejsca, wyczyść cały tor postępu poza jednym <b>polem</b> i podnieś rangę (trudność) tego miejsca (jeśli nie jest już epickie).</p>\n"
+		},
+		"Make Camp": {
+			"name": "Rozbij Obóz",
+			"description": "<p>Kiedy <strong> odpoczywasz i regenerujesz siły przez kilka godzin w dziczy</strong>, rzuć <b>+Zasoby</b>.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, ty i twoi towarzysze możecie wybrać po dwa. </p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, wybierz jedno.</p>\n<ul>\n<li>Powróć do zdrowia: Zyskujesz +1 Zdrowia sobie i twoich towarzyszy.</li>\n<li>Posil się: Tracisz -1 Zasobów i Zyskujesz <b>+1 Impetu</b> sobie i towarzyszom.</li>\n<li>Zrelaksuj się: Zyskujesz +1 Ducha.</li>\n<li>Skup się: Zyskujesz <b>+1 Impetu</b>.</li>\n<li>Przygotuj się: Kiedy kończysz obozować, dodaj +1 jeśli Wyruszasz w Podróż.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, nie zaznajesz odpoczynku. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Mark Your Failure": {
+			"name": "Oznacz swą porażkę",
+			"description": "<p>Kiedy <strong>wykonujesz ruch i ponosisz przy tym porażkę</strong>, zaznacz tik na swoim <b>torze porażek</b>. Jeśli <strong>poniosłeś porażkę gdy making wyjonywałes Ruch Zadań</strong>, zaznacz dwa tiki(kreski).</p>\n"
+		},
+		"Out of Supply": {
+			"name": "Brak Zasobów",
+			"description": "<p>Kiedy <strong>twoje zasoby sa wyczerpane</strong> (zredykowane do zera 0), zaznacz <strong>nieprzygotowany</strong>. Jeśli <strong>tracisz</strong> kolejne -Zasoby kiedy jesteś nieprzygotowany, musisz je wymienić za dowolną kombinację -Zdrowie, -Duch bądź -Impetu stosownie do okoliczności.</p>\n"
+		},
+		"Pay the Price": {
+			"name": "Zapłać Cenę",
+			"description": "<p>Kiedy <strong>ponosisz konsekwencję wyniku ruchu</strong>, wybierz jedno.</p>\n<ul>\n<li>Spowoduj, aby wydarzył się najbardziej oczywisty negatywny rezultat.</li>\n<li>Rozważ Dwa negatywne rezultaty. Uznaj jeden za 'prawdopodobny', i <em>Zapytaj Wyrocznię</em> używają tabeli tak/nie. Jeśli odpowiedzią jest 'tak', wydarza się ten rezultat. W przeciwnym razie dzieje się drugi rezultat.</li>\n<li>Rzuć na @Compendium[foundry-ironsworn.ironsworntables.D4mUSL3IXtFRfMhi]{Zapłać Cenę} tabelę.. Jeśli masz problem z interpretacją wyniku, aby dopasować go do aktualnej sytuacji, rzuć jeszcze raz.</li>\n</ul>\n"
+		},
+		"Reach Your Destination": {
+			"name": "Dotrzyj Do Celu",
+			"description": "<p>Kiedy <strong>twoja podróż dobiega końca</strong>, rzuć koścmi wyzwania (2k10). Podczas tego rzutu Impet jest ignorowany.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, sytuacja w miejscu docelowym jest dla Ciebie korzystna. Wybierz jedno.</p>\n<ul>\n<li>Wykonaj kolejny Ruch (nie <em>Ruch Postępu</em>), i dodaj +1.</li>\n<li>Zyskujesz <b>+1 Impetu</b>.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, docierasz do miejsca docelowego ale staje w obliczu nieprzewidzianego zagrożenia lub komplikacji. Rozważ co zastajesz (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien).</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, zgubiłeś się kompletnie. Twój cel jest dla ciebie nieznany, lub zostałeś zwiedziony co do niego. Jeśli nadal zamierzasz kontynuować podróż, wyczyśc cały pasek postepu, i podnieś rangę podróży o jeden (jeśli nie jest już Epicka).</p>\n"
+		},
+		"Reach a Milestone": {
+			"name": "Osiągnij Kamień Milowy",
+			"description": "<p>Kiedy <strong>robisz znaczne postępy w swojej misji, pokonując krytyczną przeszkodę, odbywając niebezpieczną podróż, rozwiązując skomplikowaną zagadkę, pokonując potężne zagrożenie, zdobywając istotne wsparcie lub zdobywając kluczowy przedmiot</strong>, zaznacz postep.</p>\n<ul>\n<li>Kłopotliwe zadanie: Zaznacz 3 punkty postepu.</li>\n<li>Niebezpiecznie zadanie: Zaznacz 2 punkty postepu.</li>\n<li>Przytłaczające zadanie: Zaznacz 1 punkt postepu.</li>\n<li>Ekstremalne zadanie: Zaznacz 2 ticki(kreski).</li>\n<li>Epickie zadanie: Zaznacz 1 tick.</li>\n</ul>\n"
+		},
+		"Resupply": {
+			"name": "Uzupełnij Zasoby",
+			"description": "<p>Kiedy <strong>polujesz, poszukujesz lub próbujesz zdobyć jedzenie</strong>, rzuć +Rozum.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, udaje Ci się usupełnić zasoby. Zyskujesz +2 Zasobów.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, Zyskujesz do dwóch +2 Zasobów, ale Tracisz <b>-1 Impetu</b> za każdy.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, nie znajdujesz niczego przydatnego. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Reveal a Danger": {
+			"name": "Ujawnij niebezpieczeństwo",
+			"description": "<p>Kiedy <strong>napotkasz ryzykowną sytuację na terenie <i>miejsca</i></strong>, rozważ jakie niebezpieczeństwo napotkałeś albo rzuć na poniższą tabelę.</p>\n<table>\n<thead>\n<tr>\n<th>Rzut</th>\n<th>Wynil</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-30</td>\n<td>Sprawdź kartę motywu.</td>\n</tr>\n<tr>\n<td>31-45</td>\n<td>Sprawdź kartę dmoeny.</td>\n</tr>\n<tr>\n<td>46-57</td>\n<td>Napotykasz wrogiego mieszkańca.</td>\n</tr>\n<tr>\n<td>58-68</td>\n<td>Stoisz w obliczu zagrożenia środowiskowego lub architektonicznego.</td>\n</tr>\n<tr>\n<td>69-76</td>\n<td>Odkrycie zagraża lub komplikuje twoje dążenia.</td>\n</tr>\n<tr>\n<td>77-79</td>\n<td>Stawiasz czoła wstrząsającej sytuacji lub doświadczasz niepokojących wrażeń.</td>\n</tr>\n<tr>\n<td>80-82</td>\n<td>Stawiasz czoła konsekwencjom wcześniejszych wyborów lub sposobu postępowania.</td>\n</tr>\n<tr>\n<td>83-85</td>\n<td>Twoja droga jest zablokowana lub zabezpieczona(pułapakmi?).</td>\n</tr>\n<tr>\n<td>86-88</td>\n<td>Zasób ulega uszczupleniu, zniszczeniu lub utracie.</td>\n</tr>\n<tr>\n<td>89-91</td>\n<td>Stoisz przed skomplikowaną zagadką lub trudnym wyborem.</td>\n</tr>\n<tr>\n<td>92-94</td>\n<td>Zgubiłeś się lub masz opóźnienie.</td>\n</tr>\n<tr>\n<td>95-00</td>\n<td>Rzuć jeszcze dwa razy na tej tabeli. Obydwa wyniki mają miejsce. Jeśli są to te same wyniki, spraw, by były jeszcze gorsze..</td>\n</tr>\n</tbody></table>\n"
+		},
+		"Reveal a Danger (alternate version)": {
+			"name": "Ujawnij niebezpieczeństwo (wersja alternatywna)",
+			"description": "<p>Kiedy <strong>napotkasz ryzykowną sytuację na terenie <i>miejsca</i></strong>, rozważ jakie niebezpieczeństwo napotkałeś albo rzuć na poniższą tabelę. </p>\n<table>\n<thead>\n<tr>\n<th>Rzut</th>\n<th>Wynik</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-22</td>\n<td>Napotykasz wrogiego mieszkańca.</td>\n</tr>\n<tr>\n<td>23-42</td>\n<td>Stoisz w obliczu zagrożenia środowiskowego lub architektonicznego.</td>\n</tr>\n<tr>\n<td>43-58</td>\n<td>Odkrycie zagraża lub komplikuje twoje dążenia.</td>\n</tr>\n<tr>\n<td>59-64</td>\n<td>Stawiasz czoła wstrząsającej sytuacji lub doświadczasz niepokojących wrażeń.</td>\n</tr>\n<tr>\n<td>65-70</td>\n<td>Stawiasz czoła konsekwencjom wcześniejszych wyborów lub sposobu postępowania.</td>\n</tr>\n<tr>\n<td>71-76</td>\n<td>Twoja droga jest zablokowana lub zabezpieczona pułapkami..</td>\n</tr>\n<tr>\n<td>77-82</td>\n<td>Zasób ulega uszczupleniu, zniszczeniu lub utracie.</td>\n</tr>\n<tr>\n<td>83-88</td>\n<td>Stoisz przed skomplikowaną zagadką lub trudnym wyborem.</td>\n</tr>\n<tr>\n<td>89-94</td>\n<td>Zgubiłeś się lub masz opóźnienie.</td>\n</tr>\n<tr>\n<td>95-00</td>\n<td>Rzuć jeszcze dwa razy na tej tabeli. Obydwa wyniki mają miejsce. Jeśli są to te same wyniki, spraw, by były jeszcze gorsze.</td>\n</tr>\n</tbody></table>\n"
+		},
+		"Secure an Advantage": {
+			"name": "Zapewnij Przewagę",
+			"description": "<p>Kiedy <strong>oceniasz sytuację, przygotowujesz się lub próbujesz zdobyć przewagę</strong>, opisz swoje działanie i rzuć. Jeśli działasz przy użyciu</p>\n<ul>\n<li>Szybkości, zwinności bądź precyzji: Rzuć: +Sprawność.</li>\n<li>Uroku, lojalności lub odwagi: Rzuć +Serce</li>\n<li>Agresji, silnej obrony, siły lub wytrzymałości: Rzuć +Żelazo.</li>\n<li>Podstępu, skrytości bądź oszustwa: Rzuć +Cień</li>\n<li>Wiedzy, wnikliwości bądź pilnej obserwacji rzuć +Rozum</li>\n</ul>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zyskujesz przewagę. Wybierz jeden z:</p>\n<ul>\n<li>Przejmij kontrolę! Wykonaj kolejny RUCH (nie <em>ruch postępu</em>), i dodaj +1.</li>\n<li>Przygotuj się do działania: Zyskujesz <b>+2 Impetu</b>.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, twoja przewaga jest krótkotrwała. Zyskujesz <b>+1 Impetu</b>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, ponosisz porażkę lub twoje założenia Cię zawodzą. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Sojourn": {
+			"name": "Skorzystaj z Gościny",
+			"description": "<p>Kiedy <strong>spędzasz czas wśród ludzi szukając pomocy</strong>, Rzuć +Serce. Jeśli posiadasz więź z tą społecznością, dodaj +1.</p>\n",
+			"strong": "<p>On <strong>sukcesie</strong>, Ty i twoi sojusznicy możecie wybrać po dwie z poniższych kategorii. Jeśli posiadasz więź z tą społecznością, wybierz jedną dodatkową kategorię.</p>\n<p>Zdjęcie Stanów</p>\n<ul>\n<li>Otrzymaj opiekę medyczną: Odznacz stan <strong>zraniony</strong> i Zyskujesz +1 Zdrowia/li>\n<li>Zaznaj otuchy: Odznacz stan <strong>wstrząśnięty</strong> i Zyskujesz +1 Ducha/li>\n<li>Wyposaż się: Odznacz stan <strong>nieprzygotowany</strong> i Zyskujesz +1 Zasobów/li>\n</ul>\n<p>Wypoczynek</p>\n<ul>\n<li>OdZyskujesz siły: Zyskujesz +2 zdrowia sobie i towarzyszom.</li>\n<li>Spotkaj się z bliską osobą: Zyskujesz +2 duch.</li>\n<li>Zaopatrz się: Zyskujesz +2 Zasobów.</li>\n<li>Przygotuj plan: Zyskujesz <b>+2 Impetu</b>.</li>\n</ul>\n<p>Zapewnij Pomoc</p>\n<ul>\n<li>Podejmij się zadania: Rozważ czego potrzebuje ta społecznośc bądź z jakimi problemami się boryka (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Jeśli podejmujesz się pomocy, <em>Złóż Żelazną Przysięgę</em> i dodaj +1.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, ty i twoi sojusznicy możecie wybrać jedną z poniższych kategorii. Jeśli posiadasz więź z tą społecznością, wybierz jedną więcej.</p>\n<p>Zdjęcie Stanów</p>\n<ul>\n<li>Otrzymaj opiekę medyczną: Odznacz stan <strong>zraniony</strong> i Zyskujesz +1 Zdrowia/li>\n<li>Zaznaj otuchy: Odznacz stan <strong>wstrząśnięty</strong> i Zyskujesz +1 Ducha/li>\n<li>Wyposaż się: Odznacz stan <strong>nieprzygotowany</strong> i Zyskujesz +1 Zasobów/li>\n</ul>\n<p>Wypoczynek</p>\n<ul>\n<li>OdZyskujesz siły: Zyskujesz +2 zdrowia sobie i towarzyszom.</li>\n<li>Spotkaj się z bliską osobą: Zyskujesz +2 duch.</li>\n<li>Zaopatrz się: Zyskujesz +2 Zasobów.</li>\n<li>Przygotuj plan: Zyskujesz <b>+2 Impetu</b>.</li>\n</ul>\n<p>Zapewnij Pomoc</p>\n<ul>\n<li>Podejmij się zadania: Rozważ czego potrzebuje ta społecznośc bądź z jakimi problemami się boryka (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Jeśli podejmujesz się pomocy, <em>Złóż Żelazną Przysięgę</em> i dodaj +1.</li>\n</ul>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, nie znajdujesz tutaj pomocy. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Strike": {
+			"name": "Uderz",
+			"description": "<p>Kiedy <strong>Masz inicjatywę i atakujesz wręcz</strong>, Rzuć +Żelazo. Gdy masz inicjatywę i atakujesz z odległości, Rzuć +Sprawność.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, zadaj +1 Ranę. Utrzymujesz unicjatywę.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, zadaj ranę ale utrać inicjatywę.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, twój atak się nie udaje i musisz <em>Zapłacić Cenę</em>. Ponadto oddajesz przeciwnikowi inicjatywę</p>\n"
+		},
+		"Swear an Iron Vow": {
+			"name": "Złóż Żelazną Przysięgę",
+			"description": "<p>Kiedy <strong>przysięgasz na żelazo, że ukończysz zadanie</strong>, zapisz swoją przysięgę i nadaj jej rangę. Następnie, Rzuć +Serce. Jeśli składasz to przysięgę wobec osoby lub społeczności, z którą łączy cię więź, dodaj +1.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, jesteś pewny celu, twoja ścieżka jest jasna i masz pewność co musisz zrobić jako następną rzecz (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien). Zyskujesz <b>+2 Impetu</b>.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, jesteś zdeterminowany, ale rozpoczynasz zadanie mając więcej pytań niż odpowiedzi. Zyskujesz <b>+1 Impetu</b>, i Rozważ co musisz zrobić by odnaleźć właściwą ścieżkę do przodu.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, napotykasz na znaczącą przeszkodę, nim zaczniesz swoją misję. Rozważ co stoi na twojej drodze (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), i wybierz jedno.</p>\n<ul>\n<li>Nie poddajesz się: Tracisz -2 momentum, i zrób co musisz, aby pokonać tę przeszkodę.</li>\n<li>Poddajesz się: <em>Porzuć Przysięgę</em>.</li>\n</ul>\n"
+		},
+		"Take a Hiatus": {
+			"name": "Odpocznij (zrób sobie przerwę)",
+			"Description": "<p>When <strong>you spend an extended time recovering in a safe place while a threat is active</strong>, do any of the following.</p>\n<ul>\n<li>Clear any marked conditions.</li>\n<li>Set your health, spirit, zasobów, and companion health to their maximum values.</li>\n<li>Set your momentum to its reset value.</li>\n</ul>\n<p>Then, for each active threat, <em>Advance a Threat</em>.</p>\n"
+		},
+		"Test Your Bond": {
+			"name": "Przetestuj Więź",
+			"description": "<p>Kiedy <strong>wasza więź jest testowana przez konflikt, zdradę lub okoliczności</strong>, Rzuć +Serce.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, ten test wzmocnił waszą więź. Wybierz jedno.</p>\n<ul>\n<li>Zyskujesz +1 Ducha.</li>\n<li>Zyskujesz <b>+2 Impetu</b>.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, wasza więź jest krucha i musisz udowodnić swoją lojalność. Rozważ czego od Ciebie chcą (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien), i zrób to (or <em>Złóż Żelazną Przysięgę/em>). Jeśli odmówisz bądź zawiedziesz, usuń więź i <em>Zapłać Cenę</em>.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, lub jeśli nie jesteś zainteresowany kontynuowaniem tej więzi, usuń ją i <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Turn the Tide": {
+			"name": "Odwróć Bieg Walki",
+			"description": "<p>Raz na walkę, gdy <strong>ryzykujesz wszystko</strong>, możesz odebrać inicjatywę przeciwnikowi, aby wykonać ruch (nie <em>ruch postepu</em>). Gdy to robisz, dodaj +1 i Zyskujesz <b>+1 Impetu</b> przy sukcesie. Jeśli nie uda ci się uzyskać sukcesu w tym ruchu, musisz ponieść poważne konsekwencje. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Undertake a Journey": {
+			"name": "Podejmij Wędrówkę",
+			"description": "<p>Kiedy <strong>podróżujesz przez niebezpieczne lub nieznane tereny</strong>, nadaj rangę(trudność) swej podróży.</p>\n<ul>\n<li>Kłopotliwa podróż: 3 punkty postepu za każdy etap podróży.</li>\n<li>Niebezpieczna podróż: 2 punkty postepu za każdy etap podróży.</li>\n<li>Nadzwyczajna podróż: 1 punkt postępu na każdy etap podróży.</li>\n<li>Ekstremalna podróż: 2 ticki(kreski) na każdy etap podróży.</li>\n<li>Epicka podróż: 1 tick na każdy etap podróży.</li>\n</ul>\n<p>Następnie na każdy etap swojej podróży(segment), rzuć +Rozum. Jeśli wyruszasz ze społeczności, z którą łączy cię więź, dodaj +1 do swojego początkowego rzutu.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, osiągasz etap podróży. Jeśli etap podróży jest ci nienzany rozważ go (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewny). Następnie, wybierz jedno.</p>\n<ul>\n<li>Dobrze wykorzystałeś zasoby: Zaznacz postęp.</li>\n<li>Narzuciłeś forsowne tempo: Zaznacz postęp i Zyskujesz <b>+1 Impetu</b>, ale Tracisz -1 Zasobów.</li>\n</ul>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, osiągasz etap podróży. Zaznacz postęp, ale Tracisz -1 Zasobów.</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, zszedłeś z drogu bądź zostałeś zaskocozny przez niebezpieczne wydarzenie. <em>Zapłać Cenę</em>.</p>\n"
+		},
+		"Wield a Rarity": {
+			"name": "Wykorzystaj Unikat",
+			"Description": "<p>When <em>you make a move aided by an augmented asset</em>, roll your rarity die in place of your action die.</p>\n<p>On <em>any result</em> with 6 showing on the rarity die, the power of the rarity manifests in a dramatic and obvious way. You score an automatic <strong>strong hit</strong> and take +1 momentum.</p>\n<p>On a <em>hit</em> with 5 showing on the rarity die, the power of the rarity manifests in a subtle way. Take +1 momentum.</p>\n<p>On a <em>miss</em> with 1 showing on the rarity die, the rarity’s power fails or works against you.</p>\n"
+		},
+		"Write Your Epilogue": {
+			"name": "Napisz Swój Epilog",
+			"description": "<p>Kiedy <strong> wycofujesz się z życia jako Ironsworn</strong>, Rozważ dwie rzeczy: Na co masz nadzieję, oraz czego się obawiasz. Następnie, rzuć koścmi wyzwania i porównaj z twoimi więziami. Impet jest ignorowany przy tym rzucie.</p>\n",
+			"strong": "<p>Jeśli osiągasz <strong>sukces</strong>, wszystko się spełniło, tak jak miałeś nadzieję.</p>\n",
+			"weak": "<p>Jeśli osiągasz <strong>częściowy sukces</strong>, twoje życie przybrało nieoczekiwany obrót, ale niekoniecznie na gorsze. Być może, że spędzasz dni z kimś lub w miejscu, którego nie przewidziałeś. Rozważ to (<em>Zapytaj Wyrocznię</em> jeśli nie jesteś pewien).</p>\n",
+			"miss": "<p>Jeśli ponosisz <strong>porażkę</strong>, Twoje obawy się spełniły. </p>\n"
+		}
+	}
+}
