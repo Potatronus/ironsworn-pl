@@ -18,9 +18,9 @@
   ],
   "packs": [
     {
-      "name": "ironsworn-delve-temas-es",
-      "label": "Ironsworn Delve Temas [ES]",
-      "path": "packs/ironsworn-delve-temas-es.db",
+      "name": "ironsworn-delve-motywy-pl.db",
+      "label": "Ironsworn Delve Motywy PL",
+      "path": "packs/ironsworn-delve-motywy-pl.db",
       "type": "Item",
       "system": "foundry-ironsworn",
       "private": false,
