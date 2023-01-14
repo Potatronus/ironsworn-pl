@@ -7,7 +7,7 @@
   ],
   "url": "https://github.com/Potatronus/ironsworn-pl",
   "manifest": "https://raw.githubusercontent.com/Potatronus/ironsworn-pl/main/module.json",
-  "download": "https://github.com/Potatronus/ironsworn-pl/archive/refs/tags/ironsworn.zip",
+  "download": "https://github.com/Potatronus/ironsworn-pl/archive/refs/heads/main.zip",
   "languages": [
     {
       "lang": "pl",
