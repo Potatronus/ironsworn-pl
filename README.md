@@ -11,7 +11,7 @@ To jest fanowskie tłumaczenie. / This translation is fan made.
 # Jak używać / How to use
 - Zainstaluj moduł Babele i ten moduł.
 - Aktywuj oba w konfiguracji świata.
-- Zmień język na hiszpański w konfiguracji świata.
+- Zmień język na polski w konfiguracji świata.
 <br></br>
 - Install Babele module  and this module.
 - Activate both in your world configuration.
